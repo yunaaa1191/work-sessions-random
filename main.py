@@ -9,6 +9,7 @@ import os
 import random
 import subprocess
 from datetime import datetime, timedelta
+from scipy import integrate
 
 # ---- store tuning constants ----
 _STORE_REV = 3
